@@ -673,6 +673,9 @@ theme.set_highlights = function(opts)
     -- Marks
     hl(0, 'MarkSignNumHL', { fg = 'NONE', bg = c.vscBack })
 
+    -- noice.nvim
+    hl(0, 'DiagnosticSignInfo', { bg = c.vscBack, fg = c.vscBlue})
+
     -- NeogitOrg/neogit
     if isDark then
         hl(0, 'NeogitDiffAdd', { fg = c.vscGitAdded, bg = c.vscDiffGreenDark })
